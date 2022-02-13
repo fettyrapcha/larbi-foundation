@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="py-8 text-center">
-      <section className="flex justify-between">
+      <section className="flex justify-between py-12">
         <div className="">
           <img
             src="https://tando.netlify.app/static/media/tenga-logo.dc47f5b8.png"
