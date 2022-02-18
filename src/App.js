@@ -8,9 +8,8 @@ function App() {
   return (
     <div>
       <div className="w-11/12 my-0 mx-auto">
-        <div className="sticky top-0">
-          <Header />
-        </div>
+        <Header />
+
         <Landing />
         <div className="w-full md:w-9/12 my-0 mx-auto py-4">
           <AccordionComponent />

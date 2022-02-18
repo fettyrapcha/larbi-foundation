@@ -100,7 +100,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="fixed z-20 top-0 left-0 right-0 bg-white">
       <div className="mx-auto sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">

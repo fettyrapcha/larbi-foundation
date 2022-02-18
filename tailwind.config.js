@@ -6,7 +6,10 @@ module.exports = {
         tendoGreen: "#00272B",
         tendoYellow: "#E0FF4F",
       },
+      fontFamily: {
+        sans: ["Raleway", "sans-serif"],
+      },
     },
+    plugins: [require("@tailwindcss/typography")],
   },
-  plugins: [],
 };
