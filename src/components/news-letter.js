@@ -25,7 +25,7 @@ export default function Newsletter() {
               type="email"
               placeholder="Your Email"
             />
-            <button className="w-32 rounded-l-none hover:bg-indigo-600 bg-blue-500  rounded text-base font-medium leading-none text-white p-5 uppercase focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700">
+            <button className="w-32 rounded-l-none bg-tendoGreen  rounded text-base font-medium leading-none text-white p-5 uppercase focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700">
               subscribe
             </button>
           </div>
