@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Pricing() {
   return (
-    <>
+    <div>
       <div className="xl:mx-auto xl:container py-20 2xl:px-0 px-6">
         <div className="lg:flex items-center justify-between">
           <div className=" lg:w-1/2 w-full">
@@ -100,6 +100,6 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

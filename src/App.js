@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AccordionComponent from "./components/accordion";
+import Features from "./components/features";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Landing from "./components/landing";
@@ -23,6 +24,7 @@ function App() {
             />
             <Route path="/" element={<Landing />} />
           </Routes>
+          <Features />
           <Pricing />
           <Newsletter />
           <Footer />
