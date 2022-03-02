@@ -22,7 +22,7 @@ export default function Newsletter() {
             </p>
             <div className="flex items-stretch mt-12">
               <input
-                className="bg-gray-100 rounded-lg rounded-r-none text-base leading-none text-gray-800 p-5 w-4/5 border border-transparent focus:outline-none focus:border-gray-500"
+                className="bg-gray-100 rounded-lg rounded-r-none text-base leading-none text-gray-800 p-5 w-4/5 border border-transparent focus:outline-none border-gray-500"
                 type="email"
                 placeholder="Your Email"
               />
