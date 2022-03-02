@@ -3,13 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="py-8 text-center">
-      <section className="flex justify-between py-12 flex-col md:flex-row">
+      <section className="w-11/12 md:max-w-7xl mx-auto my-0 flex justify-between py-12 flex-col md:flex-row">
         <div className="">
-          <img
-            src="https://tando.netlify.app/static/media/tenga-logo.dc47f5b8.png"
-            alt="jj"
-            width="130px"
-          />
+          <img src="/images/footer-logo.png" alt="jj" width="130px" />
           <p>Making selling easier for everyone</p>
         </div>
 

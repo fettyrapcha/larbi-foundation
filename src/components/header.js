@@ -83,13 +83,13 @@ const resources = [
 export default function Header() {
   return (
     <Popover className="sticky z-20 top-0 left-0 right-0 bg-white">
-      <div className="mx-auto sm:px-6">
+      <div className="w-11/12 md:max-w-7xl my-0 mx-auto sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <NavLink to="/">
               <img
                 className="h-8 w-auto sm:h-10"
-                src="https://tando.netlify.app/static/media/tenga-header-logo.94789bf2.png"
+                src="/images/header-logo.png"
                 alt=""
               />
             </NavLink>
@@ -101,12 +101,14 @@ export default function Header() {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-            <NavLink
-              to="/"
+            <a
+              href="https://blog.staging.tendo.one/"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
+              target="_blank"
+              rel="noreferrer"
             >
               Blog
-            </NavLink>
+            </a>
             <NavLink
               to="/"
               className="text-base font-medium text-gray-500 hover:text-gray-900"

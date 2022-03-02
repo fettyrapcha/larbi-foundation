@@ -4,11 +4,12 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import Landing from "./components/landing";
 import Newsletter from "./components/news-letter";
+import Pricing from "./components/pricing";
 
 function App() {
   return (
     <div>
-      <div className="w-11/12 my-0 mx-auto">
+      <div className="">
         <BrowserRouter>
           <Header />
           <Routes>
@@ -22,6 +23,7 @@ function App() {
             />
             <Route path="/" element={<Landing />} />
           </Routes>
+          <Pricing />
           <Newsletter />
           <Footer />
         </BrowserRouter>
