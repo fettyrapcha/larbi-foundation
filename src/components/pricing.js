@@ -1,39 +1,32 @@
 import React from "react";
 
+
 export default function Pricing() {
   return (
     <div>
       <div className="xl:mx-auto xl:container py-20 2xl:px-0 px-6">
         <div className="lg:flex items-center justify-between">
           <div className=" lg:w-1/2 w-full">
-            <p className="text-base leading-4 text-gray-600">
-              Choose your plan
+            <p className="text-base text-left leading-4 text-sky-800">
+              About Us
             </p>
-            <h1 className="md:text-5xl text-3xl font-bold leading-10 mt-3 text-gray-800">
-              Our pricing plan
+            <h1 className="md:text-5xl text-left text-3xl font-bold leading-10 mt-3 text-gray-800">
+              What Do We Do?
             </h1>
             <p
               role="contentinfo"
-              className="text-base leading-5 mt-5 text-gray-600"
+              className="text-base text-left leading-5 mt-5 text-gray-600"
             >
-              We’re working on a suit of tools to make managing complex systems
-              easier, for everyone for free. we can’t wait to hear what you
-              think
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <div className="w-56">
+            <div className="w-24">
               <div className="bg-gray-100 shadow rounded-full flex items-center mt-10">
-                <button
-                  className="bg-gray-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none text-base leading-none text-gray-600 rounded-full py-4 px-6 mr-1"
-                  id="monthly"
-                >
-                  Monthly
-                </button>
-                <button
-                  className="bg-tendoGreen focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none text-base leading-none text-white rounded-full py-4 px-6"
-                  id="annually"
-                >
-                  Annually
-                </button>
+                <a href="/about" className="items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-700 hover:bg-sky-800">
+                  Explore
+                </a>
               </div>
             </div>
           </div>
@@ -52,14 +45,11 @@ export default function Pricing() {
             >
               <div className="md:flex items-center justify-between">
                 <h2 className="text-2xl font-semibold leading-6 text-gray-800">
-                  Starter
+                  Events
                 </h2>
-                <p className="text-2xl font-semibold md:mt-0 mt-4 leading-6 text-gray-800">
-                  FREE
-                </p>
               </div>
-              <p className="md:w-80 text-base leading-6 mt-4 text-gray-600">
-                Full access to all features and no credit card required
+              <p className="md:w-90 text-base text-left leading-6 mt-4 text-gray-600">
+                Something that happens or is regarded as happening; an occurrence, especially one of some importance.
               </p>
             </div>
             <div
@@ -70,32 +60,14 @@ export default function Pricing() {
               <div className="w-full p-8">
                 <div className="md:flex items-center justify-between">
                   <h2 className="text-2xl font-semibold leading-6 text-gray-800">
-                    Personal
+                    Where We Work
                   </h2>
-                  <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">
-                    $18<span className="font-normal text-base">/mo</span>
-                  </p>
                 </div>
-                <p className="md:w-80 text-base leading-6 mt-4 text-gray-600">
-                  Unlimited products features and dedicated support channels
+                <p className="md:w-90 text-left text-base leading-6 mt-4 text-gray-600">
+                  We proudly provide a broad array of vital support and education for women in 8 countries
+                  around the world that have felt the devastating effects of conflict.
                 </p>
               </div>
-            </div>
-            <div
-              role="listitem"
-              className="bg-white cursor-pointer shadow rounded-lg p-8 relative z-10 mt-7"
-            >
-              <div className="md:flex items-center justify-between">
-                <h2 className="text-2xl font-semibold leading-6 text-gray-800">
-                  Team
-                </h2>
-                <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">
-                  $18<span className="font-normal text-base">/mo</span>
-                </p>
-              </div>
-              <p className="md:w-80 text-base leading-6 mt-4 text-gray-600">
-                Unlimited products features and dedicated support channels
-              </p>
             </div>
           </div>
         </div>

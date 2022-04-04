@@ -4,33 +4,56 @@ export default function Newsletter() {
   return (
     <div>
       <div className="bg-gray-100">
+        <div className="Item-center pt-5">
+          <h3 className="font-medium leading-tight text-2xl mt-0 mb-2 text-black-600 text-center">Upcoming Events</h3>
+        </div>
         <div className="p-6 container md:w-2/3 xl:w-auto mx-auto  flex flex-col xl:items-stretch justify-between xl:flex-row">
-          <div className="xl:w-1/2 md:mb-14 xl:mb-0 relative h-auto flex items-center justify-center">
-            <img
-              src="https://cdn.tuk.dev/assets/components/26May-update/newsletter-1.png"
-              alt="Envelope with a newsletter"
-              className="h-full xl:w-full lg:w-1/2 w-full "
-            />
-          </div>
-          <div className="w-full xl:w-1/2 xl:pl-40 xl:py-28 ">
-            <h1 className="text-2xl md:text-4xl xl:text-5xl font-bold leading-10 text-gray-800 mb-4 text-center xl:text-left md:mt-0 mt-4">
-              Subscribe
-            </h1>
-            <p className="text-base leading-normal text-gray-600 text-center xl:text-left">
-              Whether article spirits new her covered hastily sitting her. Money
-              witty books nor son add.
-            </p>
-            <div className="flex items-stretch mt-12">
-              <input
-                className="bg-gray-100 rounded-lg rounded-r-none text-base leading-none text-gray-800 p-5 w-4/5 border border-transparent focus:outline-none border-gray-500"
-                type="email"
-                placeholder="Your Email"
-              />
-              <button className="w-32 rounded-l-none bg-tendoGreen  rounded text-base font-medium leading-none text-white p-5 uppercase focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700">
-                subscribe
-              </button>
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-4 flex items-center ">
+            <div className="block">
+              <div className="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+                <img className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="/images/boss.jpeg" alt="" />
+                <div className="p-6 flex flex-col justify-start">
+                  <h5 className="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+                  <p className="text-gray-700 text-base mb-4">
+                    This is a wider card with supporting text below as a natural.
+                  </p>
+                  <p className="text-gray-600 text-xs">Last updated 3 mins ago</p>
+                  <button type="button" class=" inline-block mt-3 px-2.5 py-2.5 bg-sky-600 text-white font-poppins text-xs leading-tight uppercase rounded shadow-md hover:bg-sky-700 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-800 active:shadow-lg transition duration-150 ease-in-out">Read More </button>
+                </div>
+              </div>
             </div>
+            <div className="block">
+              <div className="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+                <img className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="/images/boss.jpeg" alt="" />
+                <div className="p-6 flex flex-col justify-start">
+                  <h5 className="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+                  <p className="text-gray-700 text-base mb-4">
+                    This is a wider card with supporting text below as a natural.
+                  </p>
+                  <p className="text-gray-600 text-xs">Last updated 3 mins ago</p>
+                  <button type="button" class=" inline-block mt-3 px-2.5 py-2.5 bg-sky-600 text-white font-poppins text-xs leading-tight uppercase rounded shadow-md hover:bg-sky-700 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-800 active:shadow-lg transition duration-150 ease-in-out">Read More </button>
+                </div>
+              </div>
+            </div>
+            <div className="block">
+              <div className="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+                <img className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="/images/boss.jpeg" alt="" />
+                <div className="p-6 flex flex-col justify-start">
+                  <h5 className="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+                  <p className="text-gray-700 text-base mb-4">
+                    This is a wider card with supporting text below as a natural.
+                  </p>
+                  <p className="text-gray-600 text-xs">Last updated 3 mins ago</p>
+                  <button type="button" class=" inline-block mt-3 px-2.5 py-2.5 bg-sky-600 text-white font-poppins text-xs leading-tight uppercase rounded shadow-md hover:bg-sky-700 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-800 active:shadow-lg transition duration-150 ease-in-out">Read More </button>
+                </div>
+              </div>
+            </div>
+
+
+
+
           </div>
+
         </div>
       </div>
     </div>

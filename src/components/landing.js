@@ -1,39 +1,33 @@
 import React from "react";
+
 function Landing() {
   return (
-    <section className="bg-gray-50">
-      <div className="w-11/12 md:max-w-7xl my-0 mx-auto grid grid-cols-1 md:grid-cols-2 items-center py-6">
-        <div>
-          <h1 className="text-2xl md:text-6xl font-bold font-serif">
-            Increase sales on your shopify store with zero inventory cost 😅 🤩
-          </h1>
+    <section class="overflow-hidden">
+      <div className="relative overflow-hidden bg-no-repeat bg-cover  bgimage">
+        <div className="w-11/12 md:max-w-7xl my-0 mx-auto grid grid-cols-1 md:w-3/4  items-center  content-center py-6 ">
 
-          <div className="flex items-center my-10 sm:mb-20">
+          <p className="leading-6 text-2xl text-center text-gray-100 md:text-6xl  pt-14 font-bold font-poppins">
+            Providing the neccessory opportuinity for a better future
+          </p>
+          <div className="flex justify-center items-center my-10 sm:mb-20">
             <a
-              href="/"
-              className=" gap-x-2 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-tendoGreen"
+              href="/apply"
+              className=" inline-block px-7 py-3 mr-1.5 border-2 border-sky-800 text-white font-medium text-sm leading-snug uppercase rounded-full shadow-md  hover:bg-opacity-50 focus:outline-none focus:ring-0 transition duration-150 ease-in-out hover:bg-sky-900" srole="button"
             >
-              <p>Install On Shopify</p> |
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              Apply Now
             </a>
           </div>
         </div>
-        <div>
-          <img src="/images/landing-image.png" alt="" className="w-full " />
-        </div>
+
+      </div>
+
+      <div className="-mt-2.5 md:-mt-4 lg:-mt-6 xl:-mt-10 curve">
+        <svg viewBox="0 0 2880 48" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 0 48 L 1437.5 48 L 2880 48 L 2880 0 L 2160 0 C 1453.324 60.118 726.013 4.51 720 0 L 0 0 L 0 48 Z" fill="currentColor"></path>
+        </svg>
       </div>
     </section>
+
   );
 }
 

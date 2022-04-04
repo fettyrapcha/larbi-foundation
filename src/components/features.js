@@ -5,9 +5,9 @@ const Features = () => {
     <div>
       <div className="w-11/12 md:max-w-7xl my-0 mx-auto">
         <div className="sm:flex flex-wrap justify-center items-center text-center gap-8">
-          <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-tendoGreen">
+          <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-sky-700 hover:bg-sky-900">
             <div className="flex-shrink-0">
-              <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-green-300 text-white">
                 <svg
                   width="20"
                   height="20"
@@ -21,16 +21,15 @@ const Features = () => {
               </div>
             </div>
             <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-              Website Design
+              Mission
             </h3>
             <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
-              Encompassing today’s website design technology to integrated and
-              build solutions relevant to your business.
+              A person who gains or benefits in some way from something | Meaning, pronunciation, translations and examples.
             </p>
           </div>
-          <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-tendoGreen">
+          <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-sky-700 hover:bg-sky-900">
             <div className="flex-shrink-0">
-              <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-green-300 text-white">
                 <svg
                   width="20"
                   height="20"
@@ -44,16 +43,15 @@ const Features = () => {
               </div>
             </div>
             <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-              Branding
+              vission
             </h3>
             <p className="text-md text-gray-500 dark:text-gray-300 py-4">
-              Share relevant, engaging, and inspirational brand messages to
-              create a connection with your audience.
+              To give encouragement and approval to someone or something because you want the person or thing to succeed
             </p>
           </div>
-          <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-tendoGreen">
+          <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-sky-700 hover:bg-sky-900">
             <div className="flex-shrink-0">
-              <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-green-300 text-white">
                 <svg
                   width="20"
                   height="20"
@@ -67,11 +65,10 @@ const Features = () => {
               </div>
             </div>
             <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-              SEO Marketing
+              Values
             </h3>
             <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
-              Let us help you level up your search engine game, explore our
-              solutions for digital marketing for your business.
+              A person who does something, especially helping other people, willingly and without being forced or paid to do it
             </p>
           </div>
         </div>

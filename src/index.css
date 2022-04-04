@@ -1,6 +1,49 @@
 * {
   letter-spacing: 1px;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
 }
+
+
+
+.bgimage{
+  background-image: linear-gradient(rgba(20, 20, 20, 0.575), rgba(0, 0, 0, 0.75)), url(/public/images/bm4.jpg);
+  background-position: 50%; 
+  height: 600px;
+}
+
+.curve{
+  height: 50px; 
+  transform: scale(2);
+  transform-origin: top center; 
+  color: #fff;
+}
+
+.tes1{
+  background-color: #609099;
+}
+
+.tes2{
+  background-color: #7a81a8;
+}
+.tes3{
+  background-color: #6d5b98;
+}
+
+.team1{
+  width: 150px
+}
+.gallary-image{
+  background-position: 50%
+}
+
+.bg1{
+  background-color: rgba(0, 0, 0, 0.3)
+}
+.bg2{
+  background-color: rgba(253, 253, 253, 0.15)
+}
+
+
 
 @tailwind base;
 @tailwind components;
