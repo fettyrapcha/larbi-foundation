@@ -3,11 +3,11 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
 
-  ChartBarIcon,
-  CursorClickIcon,
+  HomeIcon,
+  IdentificationIcon,
   MenuIcon,
-  RefreshIcon,
-  ShieldCheckIcon,
+  ChatIcon,
+  HeartIcon,
   ViewGridIcon,
   XIcon,
 } from "@heroicons/react/outline";
@@ -20,24 +20,24 @@ const solutions = [
     description:
       "Get a better understanding of where your traffic is coming from.",
     href: "/",
-    icon: ChartBarIcon,
+    icon: HomeIcon,
   },
   {
     name: "About",
     description: "Speak directly to your customers in a more meaningful way.",
     href: "/about",
-    icon: CursorClickIcon,
+    icon: IdentificationIcon,
   },
   {
     name: "Events",
     description: "Your customers' data will be safe and secure.",
     href: "/events",
-    icon: ShieldCheckIcon,
+    icon: HeartIcon,
   },
   {
     name: "Blog",
     description: "Connect with third-party tools that you're already using.",
-    href: "#",
+    href: "/  ",
     icon: ViewGridIcon,
   },
   {
@@ -45,7 +45,7 @@ const solutions = [
     description:
       "Build strategic funnels that will drive your customers to convert",
     href: "/faqs",
-    icon: RefreshIcon,
+    icon: ChatIcon,
   },
 ];
 
