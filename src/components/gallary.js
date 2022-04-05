@@ -20,7 +20,7 @@ const Gallary = () => {
                     <div className="grid lg:grid-cols-3 gap-6">
                         <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover gallary-image  hover:scale-110 "
                             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-                            <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
+                            <img src="/images/aa.jpeg"
                                 className="w-full transition duration-300 ease-linear align-middle " alt="" />
                             <a href="#!">
                                 <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg1"
@@ -39,7 +39,7 @@ const Gallary = () => {
 
                         <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover gallary-image  hover:scale-110"
                             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-                            <img src="https://mdbootstrap.com/img/new/standard/city/044.jpg"
+                            <img src="/images/pp.jpeg"
                                 className="w-full transition duration-300 ease-linear align-middle" alt="" />
                             <a href="#!">
                                 <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg1"
@@ -58,7 +58,7 @@ const Gallary = () => {
 
                         <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover gallary-image  hover:scale-110"
                             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-                            <img src="https://mdbootstrap.com/img/new/standard/city/045.jpg"
+                            <img src="/images/cc.png"
                                 className="w-full transition duration-300 ease-linear align-middle" alt="" />
                             <a href="#!">
                                 <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg1"

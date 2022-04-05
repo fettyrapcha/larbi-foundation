@@ -5,7 +5,7 @@ const Newevents = () => {
         <div>
             <div className="container my-24 px-6 mx-auto">
                 <section className="mb-32 text-gray-800">
-                    <h1 className="font-bold text-3xl mb-4">An intriguing title for an interesting article</h1>
+                    <h1 className="font-bold text-3xl mb-4">This is the new program we are enbacking on</h1>
 
                     <p className="uppercase text-sky-600 font-bold mb-6 flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" className="w-4 h-4 mr-2">
@@ -43,7 +43,7 @@ const Newevents = () => {
                         quia incidunt maiores molestias eaque nam commodi! Magnam, labore.
                     </p>
 
-                    <img src="/images/support.jpeg" className="w-full h-96 shadow-lg rounded-lg mb-6" alt="" />
+                    <img src="/images/support.jpg" className="w-full sm:h-96 shadow-lg rounded-lg mb-6" alt="" />
 
                     <ul className="list-disc list-inside mb-6">
                         <li>Time</li>

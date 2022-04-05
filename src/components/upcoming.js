@@ -11,7 +11,7 @@ const Upcoming = () => {
                         <p className="text-sm leading-4 font-medium text-white sm:text-slate-500 dark:sm:text-sky-800">Upcoming Event</p>
                     </div>
                     <div className="grid gap-4 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0">
-                        <img src="/images/support.jpeg" alt="" className="w-full h-60 object-cover rounded-lg sm:h-80 sm:col-span-2 lg:col-span-full" loading="lazy" />
+                        <img src="/images/support.jpg" alt="" className="w-full h-60 object-cover rounded-lg sm:h-80 sm:col-span-2 lg:col-span-full" loading="lazy" />
 
                     </div>
                     <p className="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-3 lg:col-span-1 dark:text-gray-600">
