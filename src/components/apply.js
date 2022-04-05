@@ -116,22 +116,8 @@ const Apply = () => {
                         placeholder="Your message"
                     ></textarea>
                 </div>
-
-
-
-                <div className="flex flex-wrap -mx-2 space-y-4 md:space-y-0">
-                    <div className="w-full px-2 md:w-1/3">
-                        <label className="block mb-1" for="formGridCode_month">Month</label>
-                        <input className="w-full h-10 px-3 text-base placeholder-gray-600 border rounded-lg focus:shadow-outline" type="text" id="formGridCode_month" />
-                    </div>
-                    <div className="w-full px-2 md:w-1/3">
-                        <label className="block mb-1" for="formGridCode_year">Year</label>
-                        <input className="w-full h-10 px-3 text-base placeholder-gray-600 border rounded-lg focus:shadow-outline" type="text" id="formGridCode_year" />
-                    </div>
-                    <div className="w-full px-2 md:w-1/3">
-                        <label className="block mb-1" for="formGridCode_cvc">CVC</label>
-                        <input className="w-full h-10 px-3 text-base placeholder-gray-600 border rounded-lg focus:shadow-outline" type="text" id="formGridCode_cvc" />
-                    </div>
+                <div class="flex space-x-2 justify-center">
+                    <button type="button" class="inline-block px-6 py-2.5 bg-sky-800 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
                 </div>
             </form>
         </div>
