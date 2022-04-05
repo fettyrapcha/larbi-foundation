@@ -1,7 +1,8 @@
 import React from 'react';
 
+
 import Header from "../components/header";
-import Landing from "../components/landing";
+import Land from '../components/landing';
 import Features from "../components/features";
 import Upcoming from '../components/upcoming';
 import Pricing from "../components/pricing";
@@ -17,7 +18,7 @@ const Home = () => {
         <div >
             <div className=" justify-center items-center text-center">
                 <Header />
-                <Landing />
+                <Land />
                 <Features />
                 <Pricing />
                 <Upcoming />

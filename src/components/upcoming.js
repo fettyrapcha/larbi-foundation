@@ -2,6 +2,7 @@ import React from 'react'
 
 const Upcoming = () => {
     return (
+
         <div className="w-11/12 md:max-w-7xl my-0 mx-auto my-10 ">
             <section className="py-6 px-4 sm:p-6 md:py-10 md:px-8">
                 <div className="max-w-4xl mx-auto grid grid-cols-1 lg:max-w-5xl lg:gap-x-20 lg:grid-cols-2">
@@ -23,6 +24,8 @@ const Upcoming = () => {
 
             </section>
         </div>
+
+
     )
 }
 
