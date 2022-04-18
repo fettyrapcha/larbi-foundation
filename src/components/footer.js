@@ -6,7 +6,6 @@ const Footer = () => {
       <section className="w-11/12  md:max-w-7xl mx-auto my-0 flex justify-between py-12 flex-col md:flex-row">
         <div className="">
           <img src="/images/tlf.png" alt="jj" width="130px" />
-          <p className="text-gray-300 font-poppins">Making life better for everyone</p>
         </div>
 
         <div className="text-left py-2">

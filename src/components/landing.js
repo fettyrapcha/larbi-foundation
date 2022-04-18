@@ -10,7 +10,7 @@ const Land = () => {
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bb">
             <div className="flex justify-center items-center h-full">
               <div className="text-center text-white px-6 py-6 md:py-0 md:px-12 max-w-[800px]">
-                <h2 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight leading-tight mb-12">
+                <h2 className="text-3xl md:text-6xl xl:text-7xl font-bold tracking-tight leading-tight mb-6">
                   Making Life Easier<br /><span>For The Less Privileged</span>
                 </h2>
                 <p className="text-lg">
@@ -18,7 +18,7 @@ const Land = () => {
                   social integration, integration, providing training  & education, creating well-connected network,
                   full employment and decent work for all.
                 </p>
-                <div className="flex justify-center items-center my-10 sm:mb-20">
+                <div className="flex justify-center items-center my-6 sm:mb-20">
                   <a
                     href="/apply"
                     className=" inline-block px-7 py-3 mr-1.5 border-2 border-sky-800 text-white font-medium text-sm leading-snug uppercase rounded-full shadow-md  hover:bg-opacity-50 focus:outline-none focus:ring-0 transition duration-150 ease-in-out hover:bg-sky-900" srole="button"
