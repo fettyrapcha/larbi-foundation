@@ -9,9 +9,7 @@ const Testimonial = () => {
                     <div className="text-center md:max-w-xl lg:max-w-3xl mx-auto">
                         <h3 className="text-3xl font-bold mb-6 text-gray-800">Testimonials</h3>
                         <p className="mb-6 pb-2 md:mb-12 md:pb-0">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam
-                            iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum
-                            porro a pariatur veniam.
+                            This is the testimony od those who have benefited from the foundation.
                         </p>
                     </div>
 
@@ -20,7 +18,7 @@ const Testimonial = () => {
                             <div className="block rounded-lg shadow-lg bg-white">
                                 <div className="overflow-hidden rounded-t-lg h-28 tes1" ></div>
                                 <div className="w-24 -mt-12 overflow-hidden border border-2 border-white rounded-full mx-auto bg-white">
-                                    <img src="/images/test.jpg" alt="tes1" />
+                                    <img src="/images/bene.jpeg" alt="tes1" />
                                 </div>
                                 <div className="p-6">
                                     <h4 className="text-2xl font-semibold mb-4">Maria Smantha</h4>
@@ -38,10 +36,10 @@ const Testimonial = () => {
                             <div className="block rounded-lg shadow-lg bg-white">
                                 <div className="overflow-hidden rounded-t-lg h-28 tes2" ></div>
                                 <div className="w-24 -mt-12 overflow-hidden border border-2 border-white rounded-full mx-auto bg-white">
-                                    <img src="/images/test.jpg" alt="tes2" />
+                                    <img src="/images/bene1.jpg" alt="tes2" />
                                 </div>
                                 <div className="p-6">
-                                    <h4 className="text-2xl font-semibold mb-4">Lisa Cudrow</h4>
+                                    <h4 className="text-2xl font-semibold mb-4">Childen's Home</h4>
                                     <hr />
                                     <p className="mt-4">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" className="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -57,10 +55,10 @@ const Testimonial = () => {
                             <div className="block rounded-lg shadow-lg bg-white">
                                 <div className="overflow-hidden rounded-t-lg h-28 tes3" ></div>
                                 <div className="w-24 -mt-12 overflow-hidden border border-2 border-white rounded-full mx-auto bg-white">
-                                    <img src="/images/test.jpg" alt="tes3" />
+                                    <img src="/images/bene2.jpeg" alt="tes3" />
                                 </div>
                                 <div className="p-6">
-                                    <h4 className="text-2xl font-semibold mb-4">John Smith</h4>
+                                    <h4 className="text-2xl font-semibold mb-4">Abigail Smith</h4>
                                     <hr />
                                     <p className="mt-4">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" className="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

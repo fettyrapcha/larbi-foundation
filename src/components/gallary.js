@@ -26,7 +26,7 @@ const Gallary = () => {
                                 <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg1"
                                 >
                                     <div className="flex justify-start items-end h-full">
-                                        <h5 className="text-lg font-bold text-white m-6">Hollywood exhibition</h5>
+                                        <h5 className="text-lg font-bold text-white m-6">Orphanage Home</h5>
                                     </div>
                                 </div>
                                 <div className="hover-overlay">
@@ -45,7 +45,7 @@ const Gallary = () => {
                                 <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg1"
                                 >
                                     <div className="flex justify-start items-end h-full">
-                                        <h5 className="text-lg font-bold text-white m-6">Genius Loci</h5>
+                                        <h5 className="text-lg font-bold text-white m-6">Villages in the North</h5>
                                     </div>
                                 </div>
                                 <div className="hover-overlay">
@@ -64,7 +64,7 @@ const Gallary = () => {
                                 <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg1"
                                 >
                                     <div className="flex justify-start items-end h-full">
-                                        <h5 className="text-lg font-bold text-white m-6">Big Apple</h5>
+                                        <h5 className="text-lg font-bold text-white m-6">The Aged</h5>
                                     </div>
                                 </div>
                                 <div className="hover-overlay">

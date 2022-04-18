@@ -11,16 +11,14 @@ export default function Pricing() {
               About Us
             </p>
             <h1 className="md:text-5xl text-left text-3xl font-bold leading-10 mt-3 text-gray-800">
-              What Do We Do?
+              Our mandate?
             </h1>
             <p
               role="contentinfo"
               className="text-base text-left leading-5 mt-5 text-gray-600"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              To serve as a catalyst in helping to tackle most pressing issues in society related to woman, children and the aged.
+              To conscientize and create awareness among the poeple of poorest of the poor on prevailing socio-economic situation and encourage them for active participation in socio-economic development program...
             </p>
             <div className="w-24">
               <div className="bg-gray-100 shadow rounded-full flex items-center mt-10">
@@ -39,19 +37,7 @@ export default function Pricing() {
               className="absolute w-full -ml-12 mt-24"
               alt="background circle images"
             />
-            <div
-              role="listitem"
-              className="bg-white cursor-pointer shadow rounded-lg p-8 relative z-10"
-            >
-              <div className="md:flex items-center justify-between">
-                <h2 className="text-2xl font-semibold leading-6 text-gray-800">
-                  Events
-                </h2>
-              </div>
-              <p className="md:w-90 text-base text-left leading-6 mt-4 text-gray-600">
-                Something that happens or is regarded as happening; an occurrence, especially one of some importance.
-              </p>
-            </div>
+
             <div
               role="listitem"
               className="bg-white cursor-pointer shadow rounded-lg mt-3 flex relative z-10"
@@ -64,8 +50,8 @@ export default function Pricing() {
                   </h2>
                 </div>
                 <p className="md:w-90 text-left text-base leading-6 mt-4 text-gray-600">
-                  We proudly provide a broad array of vital support and education for women in 8 countries
-                  around the world that have felt the devastating effects of conflict.
+                  We proudly provide a broad array of vital support and education for women, childreen and the aged in Africian countries
+                  around the world.
                 </p>
               </div>
             </div>

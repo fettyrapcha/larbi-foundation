@@ -15,6 +15,7 @@ import Faq from "./pages/faq";
 import Events from "./pages/events";
 import Contact from "./pages/contact";
 import ApplyPage from "./pages/applyPage";
+import Development from "./pages/development";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/apply" element={<ApplyPage />} />
+            <Route path="/under" element={<Development />} />
 
 
 

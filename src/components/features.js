@@ -24,7 +24,7 @@ const Features = () => {
               Mission
             </h3>
             <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
-              A person who gains or benefits in some way from something | Meaning, pronunciation, translations and examples.
+              The Mission is not to hand money out to people but to educate and train them to become financially independent and to also be useful citizens, innovators and inventors in their own small way.
             </p>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-sky-700 hover:bg-sky-900">
@@ -43,10 +43,10 @@ const Features = () => {
               </div>
             </div>
             <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-              vission
+              Vision
             </h3>
             <p className="text-md text-gray-500 dark:text-gray-300 py-4">
-              To give encouragement and approval to someone or something because you want the person or thing to succeed
+              THE LARBI FOUNDATION's single most important VISION tied to its MISSION is to help the needy poeple in our society through the creation of well-connected networks, providing training and education and acting as liaison between them and the networks.
             </p>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-sky-700 hover:bg-sky-900">
@@ -68,7 +68,7 @@ const Features = () => {
               Values
             </h3>
             <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
-              A person who does something, especially helping other people, willingly and without being forced or paid to do it
+              The very purpose of THE LARBI FOUNDATION is to serve others. We responsibly take up societal issues and serve the community. TLF respects human rights and does not violate them in any form.
             </p>
           </div>
         </div>

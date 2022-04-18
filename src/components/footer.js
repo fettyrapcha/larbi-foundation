@@ -14,19 +14,18 @@ const Footer = () => {
             Quick Links
           </h3>
           <ul className="text-sm text-gray-500">
-            <li className="pt-2">Donate</li>
-            <li className="pt-2">Apply</li>
-            <li className="pt-2">Insight</li>
+            <li className="pt-2"><a href="/">Donate</a></li>
+            <li className="pt-2"><a
+              href="/apply">Apply</a></li>
           </ul>
         </div>
 
         <div className="text-left py-2">
           <h3 className="font-bold font-poppins text-gray-300 text-lg md:text-xl">Organization</h3>
           <ul className="text-sm text-gray-500">
-            <li className="pt-2">About</li>
+            <li className="pt-2"><a
+              href="/about">ABout</a></li>
             <li className="pt-2">Blog</li>
-            <li className="pt-2">Jobs</li>
-            <li className="pt-2">Partners</li>
           </ul>
         </div>
 

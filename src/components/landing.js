@@ -11,11 +11,12 @@ const Land = () => {
             <div className="flex justify-center items-center h-full">
               <div className="text-center text-white px-6 py-6 md:py-0 md:px-12 max-w-[800px]">
                 <h2 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight leading-tight mb-12">
-                  Making Life Easier <br /><span>Tor Them All</span>
+                  Making Life Easier<br /><span>For The Less Privileged</span>
                 </h2>
                 <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officia
-                  consequatur adipisci tenetur repudiandae rerum quos.
+                  The Larbi Foundation seeks to promote empower the less privileged in achieving poverty eradication,
+                  social integration, integration, providing training  & education, creating well-connected network,
+                  full employment and decent work for all.
                 </p>
                 <div className="flex justify-center items-center my-10 sm:mb-20">
                   <a

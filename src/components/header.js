@@ -92,7 +92,7 @@ export default function Header() {
               Events
             </NavLink>
             <a
-              href="https://blog.staging.tendo.one/"
+              href="/under"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
               target="_blank"
               rel="noreferrer">
@@ -109,7 +109,7 @@ export default function Header() {
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             <a
-              href="/"
+              href="/under"
               className="ml-8 gap-x-2 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-700 hover:bg-sky-800"
             >
               Donate
@@ -158,7 +158,7 @@ export default function Header() {
                       className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                     >
                       <item.icon
-                        className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                        className="flex-shrink-0 h-6 w-6 text-sky-800"
                         aria-hidden="true"
                       />
                       <span className="ml-3 text-base font-medium text-gray-900">
@@ -168,6 +168,22 @@ export default function Header() {
                   ))}
                 </nav>
               </div>
+
+            </div>
+            <div>
+              <a
+                href="/under"
+                className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-700 hover:bg-sky-800"
+              >
+                Donate
+              </a>
+              <p className="mt-3 text-center text-base font-medium text-gray-500">
+                Do you need Support?{" "}
+                <a href="/apply" className="text-sky-600 hover:text-sky-800">
+                  Apply Now
+                </a>
+              </p>
+
             </div>
 
           </div>

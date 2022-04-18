@@ -9,10 +9,10 @@ const AboutLanding = () => {
                         <div>
                             <h1 className="my-px text-2xl font-bold text-left font-poppins text-sky-800">Our Mission</h1>
                             <p className="text-justify text-base font-light leading-7 font-poppins">
-                                Hearts Wide Open is a Not for Profit Organisation registered in Ghana. We seek to tackle the most pressing issues in society with a sense of urgency.
+                                The Larbi Foundation is a Not for Profit Organisation registered in Ghana. We seek to tackle the most pressing issues in society with a sense of urgency.
                                 Our Goal is to make greater strides and establish a support system for those in desperate need of help.
                                 Our Mission is simply to Spread Joy. From jobs to school fees, funding for life changing medical emergencies and more.
-                                Need help? <a href="/" className="font-bold text-sky-800 hover:text-sky-400">Apply Now</a>
+                                Need help? <a href="/apply" className="font-bold text-sky-800 hover:text-sky-400">Apply Now</a>
                             </p>
                         </div>
                         <div>
@@ -28,7 +28,7 @@ const AboutLanding = () => {
                         <div className="row-start-1 ">
                             <h1 className="my-px text-2xl font-bold text-left font-poppins text-sky-800">Our Vision</h1>
                             <p className="text-justify text-base font-light leading-7 font-poppins">
-                                Hearts Wide Open is a Not for Profit Organisation registered in Ghana. We seek to tackle the most pressing issues in society with a sense of urgency.
+                                The Larbi Foundation is a Not for Profit Organisation registered in Ghana. We seek to tackle the most pressing issues in society with a sense of urgency.
                                 Our Goal is to make greater strides and establish a support system for those in desperate need of help.
                                 Our Mission is simply to Spread Joy. From jobs to school fees, funding for life changing medical emergencies and more.
                             </p>
