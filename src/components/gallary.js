@@ -22,7 +22,7 @@ const Gallary = () => {
                             data-mdb-ripple="true" data-mdb-ripple-color="dark">
                             <img src="/images/aa.jpeg"
                                 className="w-full transition duration-300 ease-linear align-middle " alt="" />
-                            <a href="#!">
+                            <a href="/under">
                                 <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg1"
                                 >
                                     <div className="flex justify-start items-end h-full">
@@ -41,7 +41,7 @@ const Gallary = () => {
                             data-mdb-ripple="true" data-mdb-ripple-color="dark">
                             <img src="/images/pp.jpeg"
                                 className="w-full transition duration-300 ease-linear align-middle" alt="" />
-                            <a href="#!">
+                            <a href="/under">
                                 <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg1"
                                 >
                                     <div className="flex justify-start items-end h-full">
@@ -60,7 +60,7 @@ const Gallary = () => {
                             data-mdb-ripple="true" data-mdb-ripple-color="dark">
                             <img src="/images/cc.png"
                                 className="w-full transition duration-300 ease-linear align-middle" alt="" />
-                            <a href="#!">
+                            <a href="/under">
                                 <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg1"
                                 >
                                     <div className="flex justify-start items-end h-full">
