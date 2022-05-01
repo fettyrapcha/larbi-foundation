@@ -176,7 +176,7 @@ const Team = () => {
                             </ul>
                         </div>
                         <div className="mb-12 md:mb-12">
-                            <img className="rounded-lg shadow-lg mb-6 mx-auto team1" src="/images/boss.jpeg"
+                            <img className="rounded-lg shadow-lg mb-6 mx-auto team1" src="/images/jose.png"
                                 alt="avatar" />
                             <h5 className="text-lg font-bold mb-4">Josephine Abutiate</h5>
                             <p className="mb-6">Head of Publications</p>

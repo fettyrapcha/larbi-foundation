@@ -5,7 +5,7 @@ import Header from "../components/header";
 import Land from '../components/landing';
 import Features from "../components/features";
 import Upcoming from '../components/upcoming';
-import Pricing from "../components/pricing";
+import Info from '../components/info';
 import Team from "../components/team";
 import Testimonial from "../components/testimonial";
 import Gallary from '../components/gallary';
@@ -20,7 +20,7 @@ const Home = () => {
                 <Header />
                 <Land />
                 <Features />
-                <Pricing />
+                <Info />
                 <Upcoming />
                 <Testimonial />
                 <Gallary />

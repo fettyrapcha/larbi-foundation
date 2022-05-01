@@ -1,24 +1,28 @@
+import { collection, addDoc } from 'firebase/firestore';
 import React, { useState } from 'react';
-import { db } from '../firebase';
+import { db } from '../firebase.config';
 import Header from "../components/header";
 import AccordionComponent from '../components/accordion';
 import Footer from '../components/footer';
 
 const Faq = () => {
 
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [phone, setPhone] = useState("");
-    const [message, setMessage] = useState("");
+    const [newName, setNewName] = useState("");
+    const [newEmail, setNewEmail] = useState("");
+    const [newPhone, setNewPhone] = useState("");
+    const [newMessage, setNewMessage] = useState("");
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
 
-        db.collection("contacts").add({
-            name: name,
-            email: email,
-            phone: phone,
-            message: message
+    const contactsCollectionRef = collection(db, "contacts");
+
+    const createContact = async (e) => {
+        e.preventDefault()
+
+        await addDoc(contactsCollectionRef, {
+            name: newName,
+            email: newEmail,
+            phone: newPhone,
+            message: newMessage
         })
             .then(() => {
                 alert('Message has been submitted')
@@ -26,11 +30,19 @@ const Faq = () => {
             .catch((error) => {
                 alert(error.message)
             });
-        setName("")
-        setEmail("")
-        setPhone("")
-        setMessage("")
+        setNewName("")
+        setNewEmail("")
+        setNewPhone("")
+        setNewMessage("")
     };
+
+    // useEffect(() => {
+    //     const getContacts = async () => {
+    //         const data = await getDocs(contactsCollectionRef);
+    //         console.log(data)
+    //     };
+    //     getContacts();
+    // }, [])
 
 
     return (
@@ -49,33 +61,33 @@ const Faq = () => {
                                 Didn't find your answer in the FAQ? Contact our help team.
                             </p>
 
-                            <form onSubmit={handleSubmit}>
+                            <form>
                                 <div className="form-group mb-6">
                                     <input type="text"
                                         className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                        id="exampleInput7" placeholder="Name"
-                                        value={name} onChange={(e) => setName(e.target.value)} />
+                                        placeholder="Name"
+                                        value={newName} onChange={(event) => { setNewName(event.target.value); }} />
                                 </div>
                                 <div className="form-group mb-6">
                                     <input type="email"
                                         className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                        id="exampleInput8" placeholder="Email address"
-                                        value={email} onChange={(e) => setEmail(e.target.value)} />
+                                        placeholder="Email address"
+                                        value={newEmail} onChange={(event) => { setNewEmail(event.target.value); }} />
                                 </div>
                                 <div className="form-group mb-6">
                                     <input type="tel"
                                         className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                        id="exampleInput8" placeholder="Phone number"
-                                        value={phone} onChange={(e) => setPhone(e.target.value)} />
+                                        placeholder="Phone number"
+                                        value={newPhone} onChange={(event) => { setNewPhone(event.target.value); }} />
                                 </div>
                                 <div className="form-group mb-6">
                                     <textarea
                                         className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                        id="exampleFormControlTextarea13" rows="3" placeholder="Message"
-                                        value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                                        rows="3" placeholder="Message"
+                                        value={newMessage} onChange={(event) => { setNewMessage(event.target.value); }}></textarea>
                                 </div>
 
-                                <button type="submit"
+                                <button onClick={createContact}
                                     className="w-full px-6 py-2.5 bg-sky-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-sky-800 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-900 active:shadow-lg transition duration-150 ease-in-out">
                                     Send
                                 </button>

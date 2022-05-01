@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export default function Pricing() {
+export default function Info() {
   return (
     <div>
       <div className="xl:mx-auto xl:container py-20 2xl:px-0 px-6">
@@ -34,7 +34,7 @@ export default function Pricing() {
           >
             <img
               src="https://i.ibb.co/0n6DSS3/bgimg.png"
-              className="absolute w-full -ml-12 mt-24"
+              className="absolute w-9/12 -ml-12 mt-24"
               alt="background circle images"
             />
 
@@ -50,7 +50,7 @@ export default function Pricing() {
                   </h2>
                 </div>
                 <p className="md:w-90 text-left text-base leading-6 mt-4 text-gray-600">
-                  We proudly provide a broad array of vital support and education for women, childreen and the aged in Africian countries
+                  We proudly provide a broad array of vital support and education for women, children and the aged in Africian countries
                   around the world.
                 </p>
               </div>

@@ -76,19 +76,19 @@ export default function Header() {
             <NavLink
               to="/"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
-              activeClassName="is-active">
+            >
               Home
             </NavLink>
             <NavLink
               to="/about"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
-              activeClassName="is-active">
+            >
               About
             </NavLink>
             <NavLink
               to="/events"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
-              activeClassName="is-active">
+            >
               Events
             </NavLink>
             <a
@@ -101,7 +101,7 @@ export default function Header() {
             <NavLink
               to="/faqs"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
-              activeClassName="is-active"
+
             >
               Contact
             </NavLink>
@@ -173,7 +173,7 @@ export default function Header() {
             <div>
               <a
                 href="/under"
-                className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-700 hover:bg-sky-800"
+                className="mx-4 flex items-center justify-center  py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-700 hover:bg-sky-800"
               >
                 Donate
               </a>

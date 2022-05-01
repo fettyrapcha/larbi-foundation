@@ -52,12 +52,6 @@ const Newevents = () => {
                         <li>Spport</li>
                         <li>Duration</li>
                     </ul>
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, temporibus nulla
-                        voluptatibus accusantium sapiente doloremque. Doloribus ratione laboriosam culpa. Ab
-                        officiis quidem, debitis nostrum in accusantium dolore veritatis eius est?
-                    </p>
                 </section>
 
 
